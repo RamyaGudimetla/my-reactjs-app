@@ -31,7 +31,7 @@ function App() {
       
       <div className="d-flex flex-column min-vh-100">
       <NavBar onSearch={handleSearch} />
-      <h1>React js</h1>
+      <h1>React js App dev branch</h1>
       <main className="flex-grow-1">
         <BookList books={books} onSeeMore={handleSeeMore} />
         {selectedBook && <p></p>}
